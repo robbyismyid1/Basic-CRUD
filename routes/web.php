@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/blog', function () {
+    return view('front-end.index');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
