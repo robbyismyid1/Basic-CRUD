@@ -52,12 +52,12 @@
 							        Pages
 							      </a>
 							      <div class="dropdown-menu">
-							        <a class="dropdown-item" href="single.html">Single</a>
-							        <a class="dropdown-item" href="category.html">Category</a>
-							        <a class="dropdown-item" href="search.html">Search</a>
-							        <a class="dropdown-item" href="archive.html">Archive</a>
-							        <a class="dropdown-item" href="generic.html">Generic</a>
-							        <a class="dropdown-item" href="elements.html">Elements</a>
+							        <a class="dropdown-item" href="single">Single</a>
+							        <a class="dropdown-item" href="category">Category</a>
+							        <a class="dropdown-item" href="search">Search</a>
+							        <a class="dropdown-item" href="archive">Archive</a>
+							        <a class="dropdown-item" href="generic">Generic</a>
+							        <a class="dropdown-item" href="elements">Elements</a>
 							      </div>
 							    </li>								
 						    </ul>
