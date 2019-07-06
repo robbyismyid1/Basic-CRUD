@@ -14,30 +14,33 @@ Route::get('/', function () {
     return view('front-end.index');
 });
 
-Route::get('/archive', function () {
-    return view('front-end.archive');
+Route::get('/about', function () {
+    return view('front-end.about');
 });
 
-Route::get('/category', function () {
-    return view('front-end.category');
+Route::get('/contact', function () {
+    return view('front-end.contact');
 });
 
-Route::get('/elements', function () {
-    return view('front-end.elements');
+Route::get('/joinus', function () {
+    return view('front-end.joinus');
 });
 
-Route::get('/generic', function () {
-    return view('front-end.generic');
-});
-
-Route::get('/search', function () {
-    return view('front-end.search');
+Route::get('/review', function () {
+    return view('front-end.review');
 });
 
 Route::get('/single', function () {
     return view('front-end.single');
 });
 
+Route::get('/artikel', function () {
+    return view('artikel.create');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('artikel', 'ArtikelController');
+Route::resource('tag', 'TagController');
+Route::resource('kategori', 'KategoriController');

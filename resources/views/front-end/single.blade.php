@@ -1,524 +1,185 @@
 <!DOCTYPE html>
-    <html lang="zxx" class="no-js">
-    <head>
-        <!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Favicon-->
-        <link rel="shortcut icon" href="/assets/img/fav.png">
-        <!-- Author Meta -->
-        <meta name="author" content="colorlib">
-        <!-- Meta Description -->
-        <meta name="description" content="">
-        <!-- Meta Keyword -->
-        <meta name="keywords" content="">
-        <!-- meta character set -->
-        <meta charset="UTF-8">
-        <!-- Site Title -->
-        <title>Blogger</title>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Movie Review | Single</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-            <!--
-            CSS
-            ============================================= -->
-            <link rel="stylesheet" href="/assets/css/linearicons.css">
-            <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-            <link rel="stylesheet" href="/assets/css/bootstrap.css">
-            <link rel="stylesheet" href="/assets/css/owl.carousel.css">
-            <link rel="stylesheet" href="/assets/css/main.css">
-        </head>
-        <body>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="/assets/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-            <!-- Start Header Area -->
-            <header class="default-header">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container">
-                          <a class="navbar-brand" href="index.html">
-                            <img src="/assets/img/logo.png" alt="">
-                          </a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="/assets/style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
 
-                          <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
-                            <ul class="navbar-nav scrollable-menu">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#news">News</a></li>
-                                <li><a href="#travel">Travel</a></li>
-                                <li><a href="#fashion">fashion</a></li>
-                                <li><a href="#team">team</a></li>
-                                <!-- Dropdown -->
-                                <li class="dropdown">
-                                  <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                    Pages
-                                  </a>
-                                  <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="single">Single</a>
-                                    <a class="dropdown-item" href="category">Category</a>
-                                    <a class="dropdown-item" href="search">Search</a>
-                                    <a class="dropdown-item" href="archive">Archive</a>
-                                    <a class="dropdown-item" href="generic">Generic</a>
-                                    <a class="dropdown-item" href="elements">Elements</a>
-                                  </div>
-                                </li>                               
-                            </ul>
-                          </div>                        
-                    </div>
-                </nav>
-            </header>
-            <!-- End Header Area -->
-
-            <!-- Start top-section Area -->
-            <section class="top-section-area section-gap">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center d-flex">
-                        <div class="col-lg-8 top-left">
-                            <h1 class="text-white mb-20">Post Details</h1>
-                            <ul>
-                                <li><a href="index.html">Home</a><span class="lnr lnr-arrow-right"></span></li>
-                                <li><a href="category.html">Category</a><span class="lnr lnr-arrow-right"></span></li>
-                                <li><a href="single.html">Fashion</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>  
-            </section>
-            <!-- End top-section Area -->
-
-    
-    <!-- Start post Area -->
-    <div class="post-wrapper pt-100">
-        <!-- Start post Area -->
-        <section class="post-area">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="single-page-post">
-                            <img class="img-fluid" src="/assets/img/single.jpg" alt="">
-                            <div class="top-wrapper ">
-                                <div class="row d-flex justify-content-between">
-                                    <h2 class="col-lg-8 col-md-12 text-uppercase">
-                                        A Discount Toner Cartridge Is Better Than Ever
-                                    </h2>
-                                    <div class="col-lg-4 col-md-12 right-side d-flex justify-content-end">
-                                        <div class="desc">
-                                           <h2>Mark wiens</h2>
-                                            <h3>12 Dec ,2017 11:21 am</h3>
-                                        </div>
-                                        <div class="user-img">
-                                            <img src="/assets/img/user.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tags">
-                                <ul>
-                                    <li><a href="#">lifestyle</a></li>
-                                    <li><a href="#">Art</a></li>
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Fashion</a></li>
-                                </ul>
-                            </div>
-                            <div class="single-post-content">
-                                <p>
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.
-                                </p>
-                                <p>
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed MCSE training.
-                                </p>
-
-                                <blockquote>Ea possunt paria non esse. Pudebit te, inquam, illius tabulae, quam Cleanthes sane commode verbis depingere solebat. Urgent tamen et nihil remittunt. An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia? Sint ista Graecorum; Cur igitur, cum de re conveniat, non malumus usitate loqui? Huius ego nunc auctoritatem sequens idem faciam.
-                                <cite>Wise Man</cite></blockquote>
-
-                                <p>
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.
-                                </p>
-                                <p>
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed MCSE training.
-                                </p>
-                            </div>
-                            <div class="bottom-wrapper">
-                                <div class="row">
-                                    <div class="col-lg-4 single-b-wrap col-md-12">
-                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                        lily and 4 people like this
-                                    </div>
-                                    <div class="col-lg-4 single-b-wrap col-md-12">
-                                        <i class="fa fa-comment-o" aria-hidden="true"></i> 06 comments
-                                    </div>
-                                    <div class="col-lg-4 single-b-wrap col-md-12">
-                                        <ul class="social-icons">
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Start nav Area -->
-                            <section class="nav-area pt-50 pb-100">
-                                <div class="container">
-                                    <div class="row justify-content-between">
-                                        <div class="col-sm-6 nav-left justify-content-start d-flex">
-                                            <div class="thumb">
-                                                <img src="/assets/img/prev.jpg" alt="">
-                                            </div>
-                                            <div class="details">
-                                                <p>Prev Post</p>
-                                                <h4 class="text-uppercase"><a href="#">A Discount Toner</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 nav-right justify-content-end d-flex">
-                                            <div class="details">
-                                                <p>Prev Post</p>
-                                                <h4 class="text-uppercase"><a href="#">A Discount Toner</a></h4>
-                                            </div>             
-                                            <div class="thumb">
-                                                <img src="/assets/img/next.jpg" alt="">
-                                            </div>                         
-                                        </div>
-                                    </div>
-                                </div>    
-                            </section>
-                            <!-- End nav Area -->
-                            
-                            <!-- Start comment-sec Area -->
-                            <section class="comment-sec-area pt-80 pb-80">
-                                <div class="container">
-                                    <div class="row flex-column">
-                                        <h5 class="text-uppercase pb-80">05 Comments</h5>
-                                        <br>
-                                        <div class="comment-list">
-                                            <div class="single-comment justify-content-between d-flex">
-                                                <div class="user justify-content-between d-flex">
-                                                    <div class="thumb">
-                                                        <img src="/assets/img/asset/c1.jpg" alt="">
-                                                    </div>
-                                                    <div class="desc">
-                                                        <h5><a href="#">Emilly Blunt</a></h5>
-                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
-                                                        <p class="comment">
-                                                            Never say goodbye till the end comes!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="reply-btn">
-                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="comment-list left-padding">
-                                            <div class="single-comment justify-content-between d-flex">
-                                                <div class="user justify-content-between d-flex">
-                                                    <div class="thumb">
-                                                        <img src="/assets/img/asset/c2.jpg" alt="">
-                                                    </div>
-                                                    <div class="desc">
-                                                        <h5><a href="#">Emilly Blunt</a></h5>
-                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
-                                                        <p class="comment">
-                                                            Never say goodbye till the end comes!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="reply-btn">
-                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="comment-list left-padding">
-                                            <div class="single-comment justify-content-between d-flex">
-                                                <div class="user justify-content-between d-flex">
-                                                    <div class="thumb">
-                                                        <img src="/assets/img/asset/c3.jpg" alt="">
-                                                    </div>
-                                                    <div class="desc">
-                                                        <h5><a href="#">Emilly Blunt</a></h5>
-                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
-                                                        <p class="comment">
-                                                            Never say goodbye till the end comes!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="reply-btn">
-                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="comment-list">
-                                            <div class="single-comment justify-content-between d-flex">
-                                                <div class="user justify-content-between d-flex">
-                                                    <div class="thumb">
-                                                        <img src="/assets/img/asset/c4.jpg" alt="">
-                                                    </div>
-                                                    <div class="desc">
-                                                        <h5><a href="#">Emilly Blunt</a></h5>
-                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
-                                                        <p class="comment">
-                                                            Never say goodbye till the end comes!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="reply-btn">
-                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="comment-list">
-                                            <div class="single-comment justify-content-between d-flex">
-                                                <div class="user justify-content-between d-flex">
-                                                    <div class="thumb">
-                                                        <img src="/assets/img/asset/c5.jpg" alt="">
-                                                    </div>
-                                                    <div class="desc">
-                                                        <h5><a href="#">Emilly Blunt</a></h5>
-                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
-                                                        <p class="comment">
-                                                            Never say goodbye till the end comes!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="reply-btn">
-                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
-                                                </div>
-                                            </div>
-                                        </div>                                                                                                                                                                
-                                    </div>
-                                </div>    
-                            </section>
-                            <!-- End comment-sec Area -->
-                            
-                            <!-- Start commentform Area -->
-                            <section class="commentform-area  pb-120 pt-80 mb-100">
-                                <div class="container">
-                                    <h5 class="text-uppercas pb-50">Leave a Reply</h5>
-                                    <div class="row flex-row d-flex">
-                                        <div class="col-lg-6">
-                                            <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-                                            <input name="email" placeholder="Enter your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" class="common-input mb-20 form-control" required="" type="email">
-                                            <input name="Subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Subject'" class="common-input mb-20 form-control" required="" type="text">
-
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <textarea class="form-control mb-10" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-                                            <a class="primary-btn mt-20" href="#">Comment</a>
-                                        </div>
-                                    </div>
-                                </div>    
-                            </section>
-                            <!-- End commentform Area -->
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-4 sidebar-area ">
-                        <div class="single_widget search_widget">
-                            <div id="imaginary_container"> 
-                                <div class="input-group stylish-input-group">
-                                    <input type="text" class="form-control"  placeholder="Search" >
-                                    <span class="input-group-addon">
-                                        <button type="submit">
-                                            <span class="lnr lnr-magnifier"></span>
-                                        </button>  
-                                    </span>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="single_widget about_widget">
-                            <img src="/assets/img/asset/s-img.jpg" alt="">
-                            <h2 class="text-uppercase">Adele Gonzalez</h2>
-                            <p>
-                                MCSE boot camps have its supporters and
-                                its detractors. Some people do not understand why you should have to spend money
-                            </p>
-                            <div class="social-link">
-                                <a href="#"><button class="btn"><i class="fa fa-facebook" aria-hidden="true"></i> Like</button></a>
-                                <a href="#"><button class="btn"><i class="fa fa-twitter" aria-hidden="true"></i> follow</button></a>
-                            </div>
-                        </div>
-                        <div class="single_widget cat_widget">
-                            <h4 class="text-uppercase pb-20">post categories</h4>
-                            <ul>
-                                <li>
-                                    <a href="#">Technology <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Lifestyle <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Fashion <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Art <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Food <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Architecture <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Adventure <span>37</span></a>
-                                </li>                                
-                            </ul>
-                        </div>
-
-                        <div class="single_widget recent_widget">
-                            <h4 class="text-uppercase pb-20">Recent Posts</h4>
-                            <div class="active-recent-carusel">
-                                <div class="item">
-                                    <img src="/assets/img/asset/slider.jpg" alt="">
-                                    <p class="mt-20 title text-uppercase">Home Audio Recording <br>
-                                    For Everyone</p>
-                                    <p>02 Hours ago <span> <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                    06 <i class="fa fa-comment-o" aria-hidden="true"></i>02</span></p>    
-                                </div>  
-                                <div class="item">
-                                    <img src="/assets/img/asset/slider.jpg" alt="">
-                                    <p class="mt-20 title text-uppercase">Home Audio Recording <br>
-                                    For Everyone</p>
-                                    <p>02 Hours ago <span> <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                    06 <i class="fa fa-comment-o" aria-hidden="true"></i>02</span></p>    
-                                </div>  
-                                <div class="item">
-                                    <img src="/assets/img/asset/slider.jpg" alt="">
-                                    <p class="mt-20 title text-uppercase">Home Audio Recording <br>
-                                    For Everyone</p>
-                                    <p>02 Hours ago <span> <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                    06 <i class="fa fa-comment-o" aria-hidden="true"></i>02</span></p>    
-                                </div>                                                                                            
-                            </div>
-                        </div>  
+	</head>
 
 
-                        <div class="single_widget cat_widget">
-                            <h4 class="text-uppercase pb-20">post archive</h4>
-                            <ul>
-                                <li>
-                                    <a href="#">Dec'17 <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Nov'17 <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Oct'17 <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Sept'17 <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Aug'17 <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Jul'17 <span>37</span></a>
-                                </li>
-                                <li>
-                                    <a href="#">Jun'17 <span>37</span></a>
-                                </li>                                
-                            </ul>
-                        </div> 
-                        <div class="single_widget tag_widget">
-                            <h4 class="text-uppercase pb-20">Tag Clouds</h4>
-                            <ul>
-                                <li><a href="#">Lifestyle</a></li>
-                                <li><a href="#">Art</a></li>
-                                <li><a href="#">Adventure</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Fashion</a></li>
-                                <li><a href="#">Adventure</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Technology</a></li>
-                            </ul>
-                        </div>                                                 
-                    </div>
-                </div>
-            </div>    
-        </section>
-        <!-- End post Area -->  
-    </div>
-    <!-- End post Area -->
-    
-            <!-- start footer Area -->      
-            <footer class="footer-area section-gap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3  col-md-12">
-                            <div class="single-footer-widget">
-                                <h6>Top Products</h6>
-                                <ul class="footer-nav">
-                                    <li><a href="#">Managed Website</a></li>
-                                    <li><a href="#">Manage Reputation</a></li>
-                                    <li><a href="#">Power Tools</a></li>
-                                    <li><a href="#">Marketing Service</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6  col-md-12">
-                            <div class="single-footer-widget newsletter">
-                                <h6>Newsletter</h6>
-                                <p>You can trust us. we only send promo offers, not a single spam.</p>
-                                <div id="mc_embed_signup">
-                                    <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+	<body>
+		
 
-                                        <div class="form-group row" style="width: 100%">
-                                            <div class="col-lg-8 col-md-12">
-                                                <input name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-                                                <div style="position: absolute; left: -5000px;">
-                                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                                                </div>
-                                            </div> 
-                                        
-                                            <div class="col-lg-4 col-md-12">
-                                                <button class="nw-btn primary-btn">Subscribe<span class="lnr lnr-arrow-right"></span></button>
-                                            </div> 
-                                        </div>      
-                                        <div class="info"></div>
-                                    </form>
-                                </div>      
-                            </div>
-                        </div>
-                        <div class="col-lg-3  col-md-12">
-                            <div class="single-footer-widget mail-chimp">
-                                <h6 class="mb-20">Instragram Feed</h6>
-                                <ul class="instafeed d-flex flex-wrap">
-                                    <li><img src="/assets/img/i1.jpg" alt=""></li>
-                                    <li><img src="/assets/img/i2.jpg" alt=""></li>
-                                    <li><img src="/assets/img/i3.jpg" alt=""></li>
-                                    <li><img src="/assets/img/i4.jpg" alt=""></li>
-                                    <li><img src="/assets/img/i5.jpg" alt=""></li>
-                                    <li><img src="/assets/img/i6.jpg" alt=""></li>
-                                    <li><img src="/assets/img/i7.jpg" alt=""></li>
-                                    <li><img src="/assets/img/i8.jpg" alt=""></li>
-                                </ul>
-                            </div>
-                        </div>                      
-                    </div>
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="/assets/images/logo.png" alt="" class="logo">
+						<div class="logo-copy">
+							<h1 class="site-title">Company Name</h1>
+							<small class="site-description">Tagline goes here</small>
+						</div>
+					</a> <!-- #branding -->
 
-                    <div class="row footer-bottom d-flex justify-content-between">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="col-lg-8 col-sm-12 footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <div class="col-lg-4 col-sm-12 footer-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-behance"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- End footer Area -->        
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="/">Home</a></li>
+							<li class="menu-item"><a href="about">About</a></li>
+							<li class="menu-item current-menu-item"><a href="review">Movie reviews</a></li>
+							<li class="menu-item"><a href="joinus">Join us</a></li>
+							<li class="menu-item"><a href="contact">Contact</a></li>
+						</ul> <!-- .menu -->
 
-            <script src="/assets/js/vendor/jquery-2.2.4.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-            <script src="/assets/js/vendor/bootstrap.min.js"></script>
-            <script src="/assets/js/jquery.ajaxchimp.min.js"></script>
-            <script src="/assets/js/parallax.min.js"></script>          
-            <script src="/assets/js/owl.carousel.min.js"></script>      
-            <script src="/assets/js/jquery.magnific-popup.min.js"></script>             
-            <script src="/assets/js/jquery.sticky.js"></script>
-            <script src="/assets/js/main.js"></script>  
-        </body>
-    </html>
+						<form action="#" class="search-form">
+							<input type="text" placeholder="Search...">
+							<button><i class="fa fa-search"></i></button>
+						</form>n><i class="fa fa-search"></i></button>
+						</form>
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header>
+			<main class="main-content">
+				<div class="container">
+					<div class="page">
+						<div class="breadcrumbs">
+							<a href="index">Home</a>
+							<a href="review">Movie Review</a>
+							<span>The Croods</span>
+						</div>
+
+						<div class="content">
+							<div class="row">
+								<div class="col-md-6">
+									<figure class="movie-poster"><img src="/assets/dummy/single-image.jpg" alt="#"></figure>
+								</div>
+								<div class="col-md-6">
+									<h2 class="movie-title">The Croods</h2>
+									<div class="movie-summary">
+										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+
+										<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sed.</p>
+									</div>
+									<ul class="movie-meta">
+										<li><strong>Rating:</strong> 
+											<div class="star-rating" title="Rated 4.00 out of 5"><span style="width:80%"><strong class="rating">4.00</strong> out of 5</span></div>
+										</li>
+										<li><strong>Length:</strong> 98 min</li>
+										<li><strong>Premiere:</strong> 22 March 2013 (USA)</li>
+										<li><strong>Category:</strong> Animation/Adventure/Comedy</li>
+									</ul>
+
+									<ul class="starring">
+										<li><strong>Directors:</strong> Kirk de Mico (as Kirk DeMico). Chris Sanders</li>
+										<li><strong>Writers:</strong> Chris Sanders (screenplay), Kirk De Micco (screenplay)</li>
+										<li><strong>Stars:</strong> Nicolas Cage, Ryan Reynolds, Emma Stone</li>
+									</ul>
+								</div>
+							</div> <!-- .row -->
+							<div class="entry-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac pharetra libero. Integer in suscipit diam, sit amet eleifend nunc. Curabitur egestas nunc nulla, in aliquet risus efficitur quis. Vivamus facilisis est libero, vitae iaculis nulla cursus in. Suspendisse potenti. In et fringilla ipsum, quis varius quam. Morbi eleifend venenatis diam finibus vehicula. Suspendisse eu blandit metus. Sed feugiat pellentesque turpis, in lacinia ipsum. Vivamus nec luctus orci.</p>
+								<p>Aenean vehicula eget risus sit amet posuere. Maecenas id risus maximus, malesuada leo eget, pellentesque arcu. Phasellus vitae leo rhoncus, consectetur mauris vitae, lacinia quam. Nunc turpis erat, accumsan eget justo quis, auctor ultricies magna. Mauris sodales, risus sit amet hendrerit tincidunt, erat ante facilisis sapien, sit amet maximus neque massa a felis. Nullam consectetur justo massa, vel commodo metus gravida in. Aliquam erat volutpat. Nullam a lorem sed lorem euismod gravida a eu velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis ac ligula vel pharetra. Aenean vitae nulla sed dui volutpat euismod. Nam ex quam, consequat id rutrum sed, porttitor id lectus. Vestibulum venenatis consectetur justo ut sagittis. Duis dignissim tincidunt quam, nec pulvinar libero luctus nec. Morbi blandit nec lorem in ullamcorper.</p>
+								<p>Vestibulum et odio massa. Integer at odio ipsum. Proin vitae tristique nibh. Aenean semper ante sit amet ante ultricies tincidunt. Curabitur cursus, urna non ultricies posuere, dolor lacus cursus lorem, a dapibus nibh ex eget sem. Aliquam semper sagittis sapien a fermentum. Nullam sed iaculis lacus, et imperdiet risus. Praesent quis turpis ac nunc sodales tincidunt. Aliquam at leo odio. Sed a tempor nisl, et mattis felis. Nam mauris nunc, commodo ac orci ut, auctor viverra mauris.</p>
+								<p>Quisque nec justo vitae metus consectetur ultrices. Duis venenatis lorem massa, eu pulvinar quam faucibus sed. Nulla fringilla lorem sit amet sagittis mattis. Nunc in leo a odio mollis consectetur. Etiam ac nisl eget diam ullamcorper porta. Aliquam consectetur neque eget metus egestas sollicitudin. Curabitur ultrices urna et feugiat malesuada.</p>
+								<p>Nulla facilisi. Fusce sed dapibus leo, eu lobortis ante. Duis luctus mauris in ante semper, ut feugiat nisi condimentum. Nullam a odio et justo suscipit tempus. Vestibulum placerat dapibus quam, a egestas turpis efficitur id. Integer suscipit placerat placerat. Phasellus in lorem quis leo egestas accumsan. Nam et euismod ligula. Duis nec erat aliquam, sollicitudin diam non, ornare leo. Pellentesque augue leo, faucibus in nunc nec, tincidunt ullamcorper tortor. Phasellus aliquam condimentum elit. Nulla facilisi. Donec magna libero, bibendum eu faucibus et, mattis at felis. Integer turpis nibh, blandit nec elit vel, euismod laoreet quam. Donec vel ante nisi. Nunc luctus a tellus non.</p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- .container -->
+			</main>
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">About Us</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia tempore vitae mollitia nesciunt saepe cupiditate</p>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Recent Review</h3>
+								<ul class="no-bullet">
+									<li>Lorem ipsum dolor</li>
+									<li>Sit amet consecture</li>
+									<li>Dolorem respequem</li>
+									<li>Invenore veritae</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Help Center</h3>
+								<ul class="no-bullet">
+									<li>Lorem ipsum dolor</li>
+									<li>Sit amet consecture</li>
+									<li>Dolorem respequem</li>
+									<li>Invenore veritae</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Join Us</h3>
+								<ul class="no-bullet">
+									<li>Lorem ipsum dolor</li>
+									<li>Sit amet consecture</li>
+									<li>Dolorem respequem</li>
+									<li>Invenore veritae</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Social Media</h3>
+								<ul class="no-bullet">
+									<li>Facebook</li>
+									<li>Twitter</li>
+									<li>Google+</li>
+									<li>Pinterest</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Newsletter</h3>
+								<form action="#" class="subscribe-form">
+									<input type="text" placeholder="Email Address">
+								</form>
+							</div>
+						</div>
+					</div> <!-- .row -->
+
+					<div class="colophon">Copyright 2014 Company name, Designed by Themezy. All rights reserved</div>
+				</div> <!-- .container -->
+
+			</footer>
+		</div>
+		<!-- Default snippet for navigation -->
+		
+
+
+		<script src="/assets/js/jquery-1.11.1.min.js"></script>
+		<script src="/assets/js/plugins.js"></script>
+		<script src="/assets/js/app.js"></script>
+		
+	</body>
+
+</html>
