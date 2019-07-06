@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Tag;
-use Session;
 
 class TagController extends Controller
 {
@@ -15,18 +14,9 @@ class TagController extends Controller
      */
     public function index()
     {
-        $tag = Tag::orderBy('created_at','desc')->get();
-        return view('backend.tag.index', compact('tag'));
-    }
+        $tag = Tag::all();
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view ('backend.tag.create');
+        return view('admin.tag.index', compact('tag'));
     }
 
     /**
@@ -37,42 +27,13 @@ class TagController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'nama_tag' => 'required|unique:tags'
-        ]);
-        $tag = new Tag();
-        $tag->nama_tag = $request->nama_tag;
-        $tag->slug = str_slug($request->nama_tag, '-');
+        $tag = new Tag;
+
+        $tag->name = $request->nama;
+        $tag->slug = str_slug($request->nama);
         $tag->save();
-        Session::flash("flash_notification",[
-            "level" => "success",
-            "message" => "Berhasil menyimpan<b>"
-                         . $tag->nama_tag."</b>"
-        ]);
+
         return redirect()->route('tag.index');
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        $tag = Tag::findOrfail($id);
-        return view('backend.tag.edit',compact('tag'));
     }
 
     /**
@@ -84,18 +45,12 @@ class TagController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $request->validate([
-            'nama_tag' => 'required'
-        ]);
-        $tag = Tag::findOrfail($id);
-        $tag->nama_tag = $request->nama_tag;
-        $tag->slug = str_slug($request->nama_tag, '-');
+        $tag = Tag::findOrFail($request->id);
+
+        $tag->name = $request->nama;
+        $tag->slug = str_slug($request->nama);
         $tag->save();
-        Session::flash("flash_notification",[
-            "level" => "success",
-            "message" => "Berhasil mengedit<b>"
-                         . $tag->nama_tag."</b>"
-        ]);
+
         return redirect()->route('tag.index');
     }
 
@@ -105,14 +60,12 @@ class TagController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request)
     {
-        $tag = Tag::findOrfail($id)->delete();
-        // Session::flash("flash_notification",[
-        //     "level" => "Success",
-        //     "message" => "Berhasil menghapus<b>"
-        //                  . $tag->nama_tag."</b>"
-        // ]);
+        $tag = Tag::findOrFail($request->id);
+        $old = $tag->name;
+        $tag->delete();
+
         return redirect()->route('tag.index');
     }
 }

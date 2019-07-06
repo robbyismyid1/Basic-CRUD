@@ -6,31 +6,25 @@ use Illuminate\Database\Eloquent\Model;
 
 class Artikel extends Model
 {
-    protected $fillable = [
-        'judul','slug','foto',
-        'konten','id_user','id_kategori'
-    ];
     public $timestamps = true;
 
-    public function kategori()
+    public function tag()
     {
-        return $this->belongsTo('App\Kategori','id_kategori');
+        return $this->belongsToMany('App\Tag', 'artikel_tags', 'artikel_id', 'tag_id');
     }
 
     public function user()
     {
-        return $this->belongsTo('App\User','id_user');
+        return $this->belongsTo('App\User', 'user_id');
     }
 
-    public function tag()
+    public function kategori()
     {
-        return $this->belongsToMany('App\Tag','artikel_tag','id_artikel','id_tag');
+        return $this->belongsTo('App\Kategori', 'kategori_id');
     }
 
-    
     public function getRouteKeyName()
     {
         return 'slug';
     }
 }
-
